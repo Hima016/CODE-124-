@@ -1,0 +1,12 @@
+num1=int(input())
+num2=int(input())
+num3=int(input())
+num1,num2,num3=map(int,input().split())
+if(num1==7):
+    print(num2*num3)
+elif(num2==7):
+    print(num3)
+elif(num3==7):
+    print(-1)
+else:
+    print(num1*num2*num3)
